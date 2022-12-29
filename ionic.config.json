@@ -1,0 +1,7 @@
+{
+  "name": "PawRecoveryApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

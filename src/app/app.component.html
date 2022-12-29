@@ -1,0 +1,54 @@
+<ion-app>
+  <ion-menu content-id="main">
+    <ion-header>
+      <ion-toolbar>
+
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+        <ion-item routerLink="/home">
+          <ion-icon name="home" slot="start"></ion-icon>
+          <ion-label>Home</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/pet">
+          <ion-icon name="paw" slot="start"></ion-icon>
+          <ion-label>Seus Pets</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/consulta">
+          <ion-icon name="clipboard" slot="start"></ion-icon>
+          <ion-label>Consultas</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/vacinas">
+          <ion-icon name="notifications" slot="start"></ion-icon>
+          <ion-label>Vacinas</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/internacao">
+          <ion-icon name="alert" slot="start"></ion-icon>
+          <ion-label>Internações</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+        <ion-menu-toggle>
+        <ion-item routerLink="/receitas">
+          <ion-icon name="copy" slot="start"></ion-icon>
+          <ion-label>Receitas</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

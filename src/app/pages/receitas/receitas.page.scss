@@ -1,0 +1,92 @@
+ion-header {
+  background: transparent;
+  ion-item {
+    --background: transparent;
+    ion-avatar {
+      background: white;
+    }
+  }
+}
+
+ion-content {
+  * {
+    font-family: sans-serif;
+  }
+
+  .main-header {
+    height: 45vh;
+    width: 150%;
+    background: linear-gradient(90deg, #E8760E 10%, #f79437 100%);
+    box-shadow: 0 1px 10px var(--ion-color-light);
+    border-radius: 0 0 50% 50%;
+    margin-left: -14vh;
+    margin-top: -60px;
+  }
+  ion-grid {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(10vh);
+    padding-bottom: 8vh;
+    ion-chip{
+      width: 200px;
+    }
+    ion-row {
+      ion-col {
+        ion-label {
+          .ion-text-wrap{
+            font-size: 0.8rem;
+            color: black;
+
+              font-weight: bold;
+
+          }
+          ion-note {
+            font-size: 1.8rem;
+            color: black;
+            font-weight: bold;
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+  ion-card-title{
+    font-size: medium;
+  }
+ .content{
+  background: #028F62;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 75px;
+  margin-top: -90px;
+  padding: 20px;
+  padding-top: 30px;
+
+  ion-card{
+    background-color: #056144;
+    ion-card-title{
+      color: white;
+    }
+    ion-card-content{
+      color:white;
+    }
+  }
+
+
+  .details{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+
+    ion-grid{
+      padding: 0;
+      ion-col{
+        padding: 10px;
+      }
+    }
+  }
+ }
+}
